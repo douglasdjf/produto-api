@@ -40,5 +40,5 @@ Alterar configuração do RabbitMQ :
 criar o arquivo Procfile e adicionar a seguinte linha de comando:
 
 ```
-web: java -Dserver.port=$PORT $JAVA_OPTS -jar target/produto-api*.jar`
+web: java -Dserver.port=$PORT $JAVA_OPTS -jar target/produto-api*.jar
 ```

@@ -52,6 +52,6 @@ app-config:
       sales-confirmation: sales-confirmation.queue
 
   services:
-    sales: http://${VENDAS_HOST:localhost}:${VENDAS_PORT:8082}
+    sales: ${VENDAS_HOST}
 
 

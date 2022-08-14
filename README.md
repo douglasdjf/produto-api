@@ -32,3 +32,13 @@ Alterar configuração do RabbitMQ :
     password: ${RABBIT_MQ_PASSWORD:admin}
     virtual-host: ${RABBIT_MQ_USER}
 ```
+
+
+
+### Configuração Procfile
+
+criar o arquivo Procfile e adicionar a seguinte linha de comando:
+
+```
+web: java -Dserver.port=$PORT $JAVA_OPTS -jar target/produto-api*.jar`
+```
